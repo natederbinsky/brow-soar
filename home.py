@@ -13,7 +13,7 @@ from os import environ as env
 sys.path.append(env['SOAR_HOME'])
 import Python_sml_ClientInterface as sml
 
-kernel = sml.Kernel_CreateKernelInCurrentThread(True, 0)
+kernel = sml.Kernel.CreateKernelInCurrentThread(True, 0)
 
 
 prints = {}
